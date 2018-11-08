@@ -16,6 +16,7 @@
 		6E2CAFED218C59BD0082A0EE /* XibSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2CAFEC218C59BD0082A0EE /* XibSampleUITests.swift */; };
 		6E2CAFFE218C5BFE0082A0EE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2CAFFD218C5BFE0082A0EE /* ProfileViewController.swift */; };
 		6E4003A021941D9500DFC30C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E40039F21941D9500DFC30C /* User.swift */; };
+		6E4003A221941EE400DFC30C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4003A121941EE400DFC30C /* Profile.storyboard */; };
 		6E4003A5219432A800DFC30C /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4003A4219432A800DFC30C /* UIImageView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		6E2CAFEE218C59BD0082A0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E2CAFFD218C5BFE0082A0EE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		6E40039F21941D9500DFC30C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6E4003A121941EE400DFC30C /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		6E4003A4219432A800DFC30C /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				6E2CAFFD218C5BFE0082A0EE /* ProfileViewController.swift */,
+				6E4003A121941EE400DFC30C /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			files = (
 				6E2CAFD7218C59BC0082A0EE /* LaunchScreen.storyboard in Resources */,
 				6E2CAFD4218C59BC0082A0EE /* Assets.xcassets in Resources */,
+				6E4003A221941EE400DFC30C /* Profile.storyboard in Resources */,
 				6E2CAFD2218C59BC0082A0EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
