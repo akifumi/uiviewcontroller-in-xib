@@ -10,7 +10,7 @@ import UIKit
 
 final class ProfileViewController: UIViewController {
 
-    var user: User!
+    private let user: User
 
     @IBOutlet private weak var iconImageView: UIImageView! {
         didSet {
@@ -23,6 +23,16 @@ final class ProfileViewController: UIViewController {
     @IBOutlet private weak var nameLabel: UILabel!
     @IBOutlet private weak var accountIdLabel: UILabel!
     @IBOutlet private weak var descriptionLabel: UILabel!
+
+    init(user: User) {
+        self.user = user
+        super.init(nibName: nil, bundle: Bundle(for: type(of: self)))
+    }
+
+    @available(*, unavailable)
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
