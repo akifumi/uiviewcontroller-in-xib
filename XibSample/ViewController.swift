@@ -24,10 +24,7 @@ class ViewController: UIViewController {
             description: "2010年4月に株式会社ディー・エヌ・エーに入社し、新規事業のアプリ開発に従事。その後、2018年6月にiOSエンジニアとしてメルペイに入社。アプリ開発が好きで、Android/iOSの両OS共に開発している。"
         )
 
-        let bundle = Bundle(for: ProfileViewController.self)
-        guard let profileViewController = UIStoryboard(name: "Profile", bundle: bundle).instantiateInitialViewController() as? ProfileViewController else { return }
-        profileViewController.user = user
-
+        let profileViewController = ProfileViewController(user: user)
         let navigationController = UINavigationController(rootViewController: profileViewController)
         UIApplication.shared.open(navigationController)
     }

@@ -19,6 +19,7 @@
 		6E4003A221941EE400DFC30C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4003A121941EE400DFC30C /* Profile.storyboard */; };
 		6E4003A5219432A800DFC30C /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4003A4219432A800DFC30C /* UIImageView+Extensions.swift */; };
 		6E4003A72194374500DFC30C /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4003A62194374500DFC30C /* UIApplication+Extensions.swift */; };
+		6E4003A921943B5800DFC30C /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E4003A821943B5800DFC30C /* ProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		6E4003A121941EE400DFC30C /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		6E4003A4219432A800DFC30C /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		6E4003A62194374500DFC30C /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		6E4003A821943B5800DFC30C /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			children = (
 				6E2CAFFD218C5BFE0082A0EE /* ProfileViewController.swift */,
 				6E4003A121941EE400DFC30C /* Profile.storyboard */,
+				6E4003A821943B5800DFC30C /* ProfileViewController.xib */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				6E2CAFD7218C59BC0082A0EE /* LaunchScreen.storyboard in Resources */,
 				6E2CAFD4218C59BC0082A0EE /* Assets.xcassets in Resources */,
 				6E4003A221941EE400DFC30C /* Profile.storyboard in Resources */,
+				6E4003A921943B5800DFC30C /* ProfileViewController.xib in Resources */,
 				6E2CAFD2218C59BC0082A0EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
