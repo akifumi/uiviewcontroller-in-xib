@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         )
 
         let profileViewController = ProfileViewController(user: user)
-        UIApplication.shared.open(profileViewController)
+        let navigationController = UINavigationController(rootViewController: profileViewController)
+        UIApplication.shared.open(navigationController)
     }
 }
