@@ -27,6 +27,8 @@ final class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Profile"
+
         if let url = URL(string: user.profileImageUrl) {
             iconImageView.set(with: url)
         } else {
