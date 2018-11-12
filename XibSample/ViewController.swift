@@ -27,6 +27,8 @@ class ViewController: UIViewController {
         let bundle = Bundle(for: ProfileViewController.self)
         guard let profileViewController = UIStoryboard(name: "Profile", bundle: bundle).instantiateInitialViewController() as? ProfileViewController else { return }
         profileViewController.user = user
-        UIApplication.shared.open(profileViewController)
+
+        let navigationController = UINavigationController(rootViewController: profileViewController)
+        UIApplication.shared.open(navigationController)
     }
 }
