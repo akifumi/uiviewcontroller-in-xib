@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E1B555B219A6E0400F3EB47 /* AccountDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1B555A219A6E0400F3EB47 /* AccountDescriptionView.swift */; };
+		6E1B555D219A6E0E00F3EB47 /* AccountDescriptionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E1B555C219A6E0E00F3EB47 /* AccountDescriptionView.xib */; };
 		6E2CAFCD218C59BB0082A0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2CAFCC218C59BB0082A0EE /* AppDelegate.swift */; };
 		6E2CAFCF218C59BC0082A0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2CAFCE218C59BB0082A0EE /* ViewController.swift */; };
 		6E2CAFD2218C59BC0082A0EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2CAFD0218C59BC0082A0EE /* Main.storyboard */; };
@@ -20,6 +22,10 @@
 		6E4003A5219432A800DFC30C /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4003A4219432A800DFC30C /* UIImageView+Extensions.swift */; };
 		6E4003A72194374500DFC30C /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4003A62194374500DFC30C /* UIApplication+Extensions.swift */; };
 		6E4003A921943B5800DFC30C /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E4003A821943B5800DFC30C /* ProfileViewController.xib */; };
+		6EEB0D6E21997B9100F900C4 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEB0D6D21997B9100F900C4 /* NibLoadable.swift */; };
+		6EEB0D7121997D0800F900C4 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEB0D7021997D0800F900C4 /* NibLoadableView.swift */; };
+		6EEB0D7421997D7200F900C4 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEB0D7321997D7200F900C4 /* AccountView.swift */; };
+		6EEB0D7621997D9300F900C4 /* AccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EEB0D7521997D9300F900C4 /* AccountView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E1B555A219A6E0400F3EB47 /* AccountDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDescriptionView.swift; sourceTree = "<group>"; };
+		6E1B555C219A6E0E00F3EB47 /* AccountDescriptionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountDescriptionView.xib; sourceTree = "<group>"; };
 		6E2CAFC9218C59BB0082A0EE /* XibSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XibSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E2CAFCC218C59BB0082A0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E2CAFCE218C59BB0082A0EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +67,10 @@
 		6E4003A4219432A800DFC30C /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		6E4003A62194374500DFC30C /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
 		6E4003A821943B5800DFC30C /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		6EEB0D6D21997B9100F900C4 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		6EEB0D7021997D0800F900C4 /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		6EEB0D7321997D7200F900C4 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		6EEB0D7521997D9300F900C4 /* AccountView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +155,9 @@
 			children = (
 				6E4003A32194328F00DFC30C /* Extensions */,
 				6E40039E21941D7C00DFC30C /* Models */,
+				6EEB0D6C21997B7100F900C4 /* Protocols */,
 				6E2CAFFB218C5BE30082A0EE /* Scenes */,
+				6EEB0D6F21997CC600F900C4 /* Views */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -162,6 +176,7 @@
 				6E2CAFFD218C5BFE0082A0EE /* ProfileViewController.swift */,
 				6E4003A121941EE400DFC30C /* Profile.storyboard */,
 				6E4003A821943B5800DFC30C /* ProfileViewController.xib */,
+				6EEB0D7221997D5300F900C4 /* Subview */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -181,6 +196,33 @@
 				6E4003A4219432A800DFC30C /* UIImageView+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6EEB0D6C21997B7100F900C4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6EEB0D6D21997B9100F900C4 /* NibLoadable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6EEB0D6F21997CC600F900C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6EEB0D7021997D0800F900C4 /* NibLoadableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6EEB0D7221997D5300F900C4 /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				6EEB0D7321997D7200F900C4 /* AccountView.swift */,
+				6EEB0D7521997D9300F900C4 /* AccountView.xib */,
+				6E1B555A219A6E0400F3EB47 /* AccountDescriptionView.swift */,
+				6E1B555C219A6E0E00F3EB47 /* AccountDescriptionView.xib */,
+			);
+			path = Subview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,9 +330,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E2CAFD7218C59BC0082A0EE /* LaunchScreen.storyboard in Resources */,
+				6E1B555D219A6E0E00F3EB47 /* AccountDescriptionView.xib in Resources */,
 				6E2CAFD4218C59BC0082A0EE /* Assets.xcassets in Resources */,
 				6E4003A221941EE400DFC30C /* Profile.storyboard in Resources */,
 				6E4003A921943B5800DFC30C /* ProfileViewController.xib in Resources */,
+				6EEB0D7621997D9300F900C4 /* AccountView.xib in Resources */,
 				6E2CAFD2218C59BC0082A0EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,10 +360,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EEB0D7121997D0800F900C4 /* NibLoadableView.swift in Sources */,
 				6E2CAFFE218C5BFE0082A0EE /* ProfileViewController.swift in Sources */,
 				6E4003A72194374500DFC30C /* UIApplication+Extensions.swift in Sources */,
+				6E1B555B219A6E0400F3EB47 /* AccountDescriptionView.swift in Sources */,
+				6EEB0D6E21997B9100F900C4 /* NibLoadable.swift in Sources */,
 				6E2CAFCF218C59BC0082A0EE /* ViewController.swift in Sources */,
 				6E2CAFCD218C59BB0082A0EE /* AppDelegate.swift in Sources */,
+				6EEB0D7421997D7200F900C4 /* AccountView.swift in Sources */,
 				6E4003A5219432A800DFC30C /* UIImageView+Extensions.swift in Sources */,
 				6E4003A021941D9500DFC30C /* User.swift in Sources */,
 			);

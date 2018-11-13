@@ -12,17 +12,8 @@ final class ProfileViewController: UIViewController {
 
     private let user: User
 
-    @IBOutlet private weak var iconImageView: UIImageView! {
-        didSet {
-            iconImageView.layer.borderWidth = 1.0 / UIScreen.main.scale
-            iconImageView.layer.borderColor = UIColor.lightGray.cgColor
-            iconImageView.layer.cornerRadius = 4
-            iconImageView.layer.masksToBounds = true
-        }
-    }
-    @IBOutlet private weak var nameLabel: UILabel!
-    @IBOutlet private weak var accountIdLabel: UILabel!
-    @IBOutlet private weak var descriptionLabel: UILabel!
+    @IBOutlet private weak var accountView: AccountView!
+    @IBOutlet private weak var accountDescriptionView: AccountDescriptionView!
 
     init(user: User) {
         self.user = user
@@ -39,13 +30,17 @@ final class ProfileViewController: UIViewController {
 
         title = "Profile"
 
-        if let url = URL(string: user.profileImageUrl) {
-            iconImageView.set(with: url)
-        } else {
-            iconImageView.image = nil
-        }
-        nameLabel.text = user.name
-        accountIdLabel.text = user.id
-        descriptionLabel.text = user.description
+        accountView.configure(
+            input: AccountView.Input(
+                iconImageURL: URL(string: user.profileImageUrl),
+                name: user.name,
+                accountId: user.id
+            )
+        )
+        accountDescriptionView.configure(
+            input: AccountDescriptionView.Input(
+                description: user.description
+            )
+        )
     }
 }
