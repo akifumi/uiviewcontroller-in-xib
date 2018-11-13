@@ -76,10 +76,6 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <constraints>
-                        <constraint firstAttribute="trailing" secondItem="fZ9-6G-vml" secondAttribute="trailing" id="VqN-sp-otO"/>
-                        <constraint firstItem="fZ9-6G-vml" firstAttribute="leading" secondItem="ZPB-K9-uFB" secondAttribute="leading" id="Xxd-uz-SU0"/>
-                    </constraints>
                 </stackView>
             </subviews>
             <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
