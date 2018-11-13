@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E1B555B219A6E0400F3EB47 /* AccountDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1B555A219A6E0400F3EB47 /* AccountDescriptionView.swift */; };
+		6E1B555D219A6E0E00F3EB47 /* AccountDescriptionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E1B555C219A6E0E00F3EB47 /* AccountDescriptionView.xib */; };
 		6E2CAFCD218C59BB0082A0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2CAFCC218C59BB0082A0EE /* AppDelegate.swift */; };
 		6E2CAFCF218C59BC0082A0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2CAFCE218C59BB0082A0EE /* ViewController.swift */; };
 		6E2CAFD2218C59BC0082A0EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2CAFD0218C59BC0082A0EE /* Main.storyboard */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E1B555A219A6E0400F3EB47 /* AccountDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDescriptionView.swift; sourceTree = "<group>"; };
+		6E1B555C219A6E0E00F3EB47 /* AccountDescriptionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountDescriptionView.xib; sourceTree = "<group>"; };
 		6E2CAFC9218C59BB0082A0EE /* XibSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XibSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E2CAFCC218C59BB0082A0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E2CAFCE218C59BB0082A0EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -215,6 +219,8 @@
 			children = (
 				6EEB0D7321997D7200F900C4 /* AccountView.swift */,
 				6EEB0D7521997D9300F900C4 /* AccountView.xib */,
+				6E1B555A219A6E0400F3EB47 /* AccountDescriptionView.swift */,
+				6E1B555C219A6E0E00F3EB47 /* AccountDescriptionView.xib */,
 			);
 			path = Subview;
 			sourceTree = "<group>";
@@ -324,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E2CAFD7218C59BC0082A0EE /* LaunchScreen.storyboard in Resources */,
+				6E1B555D219A6E0E00F3EB47 /* AccountDescriptionView.xib in Resources */,
 				6E2CAFD4218C59BC0082A0EE /* Assets.xcassets in Resources */,
 				6E4003A221941EE400DFC30C /* Profile.storyboard in Resources */,
 				6E4003A921943B5800DFC30C /* ProfileViewController.xib in Resources */,
@@ -356,6 +363,7 @@
 				6EEB0D7121997D0800F900C4 /* NibLoadableView.swift in Sources */,
 				6E2CAFFE218C5BFE0082A0EE /* ProfileViewController.swift in Sources */,
 				6E4003A72194374500DFC30C /* UIApplication+Extensions.swift in Sources */,
+				6E1B555B219A6E0400F3EB47 /* AccountDescriptionView.swift in Sources */,
 				6EEB0D6E21997B9100F900C4 /* NibLoadable.swift in Sources */,
 				6E2CAFCF218C59BC0082A0EE /* ViewController.swift in Sources */,
 				6E2CAFCD218C59BB0082A0EE /* AppDelegate.swift in Sources */,
