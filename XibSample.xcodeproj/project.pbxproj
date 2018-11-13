@@ -22,6 +22,8 @@
 		6E4003A921943B5800DFC30C /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E4003A821943B5800DFC30C /* ProfileViewController.xib */; };
 		6EEB0D6E21997B9100F900C4 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEB0D6D21997B9100F900C4 /* NibLoadable.swift */; };
 		6EEB0D7121997D0800F900C4 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEB0D7021997D0800F900C4 /* NibLoadableView.swift */; };
+		6EEB0D7421997D7200F900C4 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEB0D7321997D7200F900C4 /* AccountView.swift */; };
+		6EEB0D7621997D9300F900C4 /* AccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EEB0D7521997D9300F900C4 /* AccountView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		6E4003A821943B5800DFC30C /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		6EEB0D6D21997B9100F900C4 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		6EEB0D7021997D0800F900C4 /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		6EEB0D7321997D7200F900C4 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		6EEB0D7521997D9300F900C4 /* AccountView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,7 @@
 				6E2CAFFD218C5BFE0082A0EE /* ProfileViewController.swift */,
 				6E4003A121941EE400DFC30C /* Profile.storyboard */,
 				6E4003A821943B5800DFC30C /* ProfileViewController.xib */,
+				6EEB0D7221997D5300F900C4 /* Subview */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -203,6 +208,15 @@
 				6EEB0D7021997D0800F900C4 /* NibLoadableView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		6EEB0D7221997D5300F900C4 /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				6EEB0D7321997D7200F900C4 /* AccountView.swift */,
+				6EEB0D7521997D9300F900C4 /* AccountView.xib */,
+			);
+			path = Subview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +327,7 @@
 				6E2CAFD4218C59BC0082A0EE /* Assets.xcassets in Resources */,
 				6E4003A221941EE400DFC30C /* Profile.storyboard in Resources */,
 				6E4003A921943B5800DFC30C /* ProfileViewController.xib in Resources */,
+				6EEB0D7621997D9300F900C4 /* AccountView.xib in Resources */,
 				6E2CAFD2218C59BC0082A0EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +359,7 @@
 				6EEB0D6E21997B9100F900C4 /* NibLoadable.swift in Sources */,
 				6E2CAFCF218C59BC0082A0EE /* ViewController.swift in Sources */,
 				6E2CAFCD218C59BB0082A0EE /* AppDelegate.swift in Sources */,
+				6EEB0D7421997D7200F900C4 /* AccountView.swift in Sources */,
 				6E4003A5219432A800DFC30C /* UIImageView+Extensions.swift in Sources */,
 				6E4003A021941D9500DFC30C /* User.swift in Sources */,
 			);
