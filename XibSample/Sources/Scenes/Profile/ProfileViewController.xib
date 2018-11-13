@@ -37,6 +37,19 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="96" placeholder="YES" id="0UR-O6-Eyv"/>
                             </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="iconBorderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="iconBorderColor">
+                                    <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="iconCornerRadius">
+                                    <real key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="string" keyPath="name" value="Name"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="accountId" value="@Account"/>
+                            </userDefinedRuntimeAttributes>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L2I-7W-mUi" userLabel="Border">
                             <rect key="frame" x="0.0" y="97" width="375" height="1"/>
@@ -51,6 +64,9 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="53" placeholder="YES" id="NTB-q0-fvg"/>
                             </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="text" value="Description"/>
+                            </userDefinedRuntimeAttributes>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mPO-vB-qvt" userLabel="Border">
                             <rect key="frame" x="0.0" y="151" width="375" height="1"/>

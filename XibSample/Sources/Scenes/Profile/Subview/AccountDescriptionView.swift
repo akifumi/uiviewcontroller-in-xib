@@ -12,6 +12,11 @@ import UIKit
 final class AccountDescriptionView: NibLoadableView {
     @IBOutlet private weak var descriptionLabel: UILabel!
 
+    @IBInspectable private var text: String? {
+        get { return descriptionLabel.text }
+        set { descriptionLabel.text = newValue }
+    }
+
     struct Input {
         let description: String
     }
