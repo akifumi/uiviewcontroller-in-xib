@@ -13,7 +13,7 @@ final class ProfileViewController: UIViewController {
     private let user: User
 
     @IBOutlet private weak var accountView: AccountView!
-    @IBOutlet private weak var descriptionLabel: UILabel!
+    @IBOutlet private weak var accountDescriptionView: AccountDescriptionView!
 
     init(user: User) {
         self.user = user
@@ -37,6 +37,10 @@ final class ProfileViewController: UIViewController {
                 accountId: user.id
             )
         )
-        descriptionLabel.text = user.description
+        accountDescriptionView.configure(
+            input: AccountDescriptionView.Input(
+                description: user.description
+            )
+        )
     }
 }

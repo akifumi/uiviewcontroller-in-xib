@@ -11,8 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController" customModule="XibSample" customModuleProvider="target">
             <connections>
+                <outlet property="accountDescriptionView" destination="1m7-Zx-Lzo" id="ZqL-eJ-kHB"/>
                 <outlet property="accountView" destination="poc-IY-WAq" id="VbG-fj-PfD"/>
-                <outlet property="descriptionLabel" destination="xp7-dd-tyH" id="d8Z-zd-ny1"/>
                 <outlet property="view" destination="g3X-do-1b4" id="Dda-CA-eDG"/>
             </connections>
         </placeholder>
@@ -22,7 +22,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ZPB-K9-uFB">
-                    <rect key="frame" x="0.0" y="40" width="375" height="227"/>
+                    <rect key="frame" x="0.0" y="40" width="375" height="152"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fZ9-6G-vml" userLabel="Border">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
@@ -45,24 +45,15 @@
                                 <constraint firstAttribute="height" constant="1" id="se5-O0-P0f"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1m7-Zx-Lzo">
-                            <rect key="frame" x="0.0" y="98" width="375" height="128"/>
-                            <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xp7-dd-tyH">
-                                    <rect key="frame" x="16" y="16" width="343" height="96"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                            </subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1m7-Zx-Lzo" customClass="AccountDescriptionView" customModule="XibSample" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="98" width="375" height="53"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstAttribute="bottom" secondItem="xp7-dd-tyH" secondAttribute="bottom" constant="16" id="ItG-R2-0QS"/>
-                                <constraint firstItem="xp7-dd-tyH" firstAttribute="top" secondItem="1m7-Zx-Lzo" secondAttribute="top" constant="16" id="Vl9-EV-ukw"/>
+                                <constraint firstAttribute="height" constant="53" placeholder="YES" id="NTB-q0-fvg"/>
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mPO-vB-qvt" userLabel="Border">
-                            <rect key="frame" x="0.0" y="226" width="375" height="1"/>
+                            <rect key="frame" x="0.0" y="151" width="375" height="1"/>
                             <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="qZz-LK-Nku"/>
@@ -78,10 +69,8 @@
             <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="ZPB-K9-uFB" firstAttribute="top" secondItem="fpp-RS-kEx" secondAttribute="top" constant="20" id="Pwv-s7-TSW"/>
-                <constraint firstItem="xp7-dd-tyH" firstAttribute="leading" secondItem="fpp-RS-kEx" secondAttribute="leading" constant="16" id="dlz-K0-GlR"/>
                 <constraint firstAttribute="trailing" secondItem="ZPB-K9-uFB" secondAttribute="trailing" id="eNl-0v-dir"/>
                 <constraint firstItem="ZPB-K9-uFB" firstAttribute="leading" secondItem="g3X-do-1b4" secondAttribute="leading" id="p0E-nP-SeR"/>
-                <constraint firstItem="fpp-RS-kEx" firstAttribute="trailing" secondItem="xp7-dd-tyH" secondAttribute="trailing" constant="16" id="uix-x7-buH"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fpp-RS-kEx"/>
             <point key="canvasLocation" x="218" y="-402"/>
